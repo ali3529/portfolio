@@ -3,6 +3,8 @@ import { FiArrowDownCircle } from 'react-icons/fi';
 import developerLight from '../../images/developer.svg';
 import developerDark from '../../images/developer-dark.svg';
 import { motion } from 'framer-motion';
+// import { resumePdf } from './public/resume/Alireza-Abbasi-2023-6.pdf';
+import  resumePdf  from '../../resume/Alireza-Abbasi-2023-6.pdf';
 
 const AppBanner = () => {
 	const [activeTheme] = useThemeSwitcher();
@@ -25,7 +27,7 @@ const AppBanner = () => {
 					}}
 					className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 				>
-					Hi, Iam Stoman
+					Hi, Iam Alireza
 				</motion.h1>
 				<motion.p
 					initial={{ opacity: 0 }}
@@ -37,7 +39,7 @@ const AppBanner = () => {
 					}}
 					className="font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
 				>
-					A Full-Stack Developer & Design Enthusiast
+					A Front-End Developer
 				</motion.p>
 				<motion.div
 					initial={{ opacity: 0 }}
@@ -51,7 +53,7 @@ const AppBanner = () => {
 				>
 					<a
 						download="Stoman-Resume.pdf"
-						href="/files/Stoman-Resume.pdf"
+						href={resumePdf}
 						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
 						aria-label="Download Resume"
 					>

@@ -9,8 +9,18 @@ import UIImage2 from '../images/ui-project-2.jpg';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
-		category: 'Web Application',
+		title: 'Melodify',
+		category: ' Stream Music App',
+		img: WebImage2,
+		ProjectHeader: {
+			title: 'Project Management UI - From Context',
+			publishDate: 'Jul 26, 2021',
+			tags: 'UI / Frontend',
+		},
+	},{
+		id: 1,
+		title: 'Melodify Mobile Web App (PWA)',
+		category: ' Stream Music App For ios',
 		img: WebImage2,
 		ProjectHeader: {
 			title: 'Project Management UI - From Context',
@@ -20,32 +30,52 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
+		title: 'Commerces Pannel Full Future',
+		category: 'Web Application',
+		img: MobileImage2,
+	},{
+		id: 2,
+		title: 'Teammate Me',
+		category: 'Web Application',
 		img: MobileImage2,
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
+		title: 'Beh Factor',
+		category: 'automatic Payment System',
 		img: UIImage1,
 	},
 	{
 		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
+		title: 'Beh Foroush',
+		category: 'Web App and PWA',
 		img: UIImage2,
 	},
 	{
 		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
+		title: 'Rug Store',
+		category: 'Rug Market Place',
 		img: MobileImage1,
 	},
 	{
 		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
+		title: 'Gold Accountant',
+		category: 'Web app',
+		img: WebImage1,
+	},{
+		id: 6,
+		title: 'CMS System  ',
+		category: 'Web app',
+		img: WebImage1,
+	},{
+		id: 6,
+		title: 'Innova Site  ',
+		category: 'Web app',
+		img: WebImage1,
+	},{
+		id: 6,
+		title: 'Vimo',
+		category: 'Video Streaming App',
 		img: WebImage1,
 	},
 ];
